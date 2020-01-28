@@ -1,1 +1,17 @@
-ffff
+:root {
+  --primary-color: rgba(24, 39, 51, 0.6);
+  --overlay-color: rgba(108, 207, 117, 0.99);
+  --menu-speed: 0.75s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVI */
+
+.big_navi {
+  display: none;
+}
