@@ -59,13 +59,13 @@
 
 /* hamburger animation */
 .menu_wrap .toggler:checked + .hamburger > div {
-  transform: rotate(135deg);
+  transform: rotate(765deg);
 }
 
 .menu_wrap .toggler:checked + .hamburger > div:before,
 .menu_wrap .toggler:checked + .hamburger > div:after {
   top: 0;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
 }
 
 .menu_wrap .toggler:hover + .hamburger > div {
@@ -100,12 +100,15 @@
 }
 
 .menu_wrap .menu > div {
-  background: var(--overlay-color);
+  background-image: url(img/moon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 100vw;
+  height: 100vw;
   display: flex;
   flex: none;
+  text-align: center;
   align-items: center;
   justify-content: center;
   transform: scale(0);
@@ -122,7 +125,7 @@
 
 .menu_wrap .menu > div > div > ul > li {
   list-style: none;
-  color: #fff;
+  color: darkslategrey;
   font-size: 1.5rem;
   padding: 1rem;
 }
