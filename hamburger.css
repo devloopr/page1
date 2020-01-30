@@ -93,7 +93,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--moon-bg);
+  background-color: var(--primary-color);
   visibility: hidden;
   overflow: hidden;
   display: flex;
@@ -102,15 +102,12 @@
 }
 
 .menu_wrap .menu > div {
-  background-image: url(img/moon.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
   border-radius: 50%;
   width: 100vw;
   height: 100vw;
   display: flex;
   flex: none;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
   justify-content: center;
   transform: scale(0);
@@ -127,7 +124,7 @@
 
 .menu_wrap .menu > div > div > ul > li {
   list-style: none;
-  color: darkslategrey;
+  color: #fff;
   font-size: 1.5rem;
   padding: 1rem;
 }
@@ -140,5 +137,5 @@
 }
 
 .menu_wrap .menu > div > div > ul > li > a:hover {
-  color: var(--moon-bg);
+  color: var(--primary-color);
 }

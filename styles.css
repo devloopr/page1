@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgba(24, 39, 51, 0.6);
+  --primary-color: rgba(24, 39, 51, 0.8);
   --overlay-color: rgba(108, 207, 117, 0.99);
   --moon-bg: rgba(14, 49, 141, 0.7);
   --menu-speed: 0.75s;
@@ -34,12 +34,12 @@ body {
   max-height: 100%;
 }
 
-.line {
+/* .line {
   width: 40%;
   height: 1px;
   background-color: black;
   margin: 0 auto;
-}
+} */
 
 /* Header */
 
