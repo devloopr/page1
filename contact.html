@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Red Planet is an unofficial microsite about NASA's Mars exploration program" />
+    <meta name="keywords" content="mars rovers, nasa, mars, red planet, space, live on mars??" />
+    <meta name="author" content="Stian F Evensen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" style type="text/css" />
+    <link rel="stylesheet" href="contact.css" style type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet" />
+
+    <title>Red Planet | Contact</title>
+  </head>
+  <body>
+    <label id="label_hamburger" for="hamburger_menu">
+      <i class="fas fa-bars"> </i>
+    </label>
+    <img src="img/logo.png" class="hamburger_logo" alt="red planet logo" />
+    <input type="checkbox" id="hamburger_menu" />
+    <nav>
+      <div class="nav_container">
+        <div class="nav_wrapper">
+          <img src="img/logo.png" class="logo" alt="red planet logo" />
+          <a href="index.html">home</a>
+          <a href="gallery.html">gallery</a>
+          <a href="timeline.html">timeline</a>
+          <a href="contact.html" class="active_nav">contact</a>
+        </div>
+      </div>
+    </nav>
+    <header class="hero"></header>
+    <main>
+      <div class="form_wrapper">
+        <h2>Contact us</h2>
+        <div id="error_message"></div>
+        <form action="" id="myform" onsubmit="return validate();">
+          <div class="input_field">
+            <input type="text" placeholder="Name" id="name" />
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="Email" id="email" />
+          </div>
+          <div class="input_field">
+            <textarea placeholder="Message" id="message"></textarea>
+          </div>
+          <div class="btn">
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <hr />
+      <div class="footer_container">
+        <div class="footer_logo_container">
+          <img src="img/logo.png" alt="red planet logo" />
+          <h5>Is an unofficial microsite for NASA.</h5>
+          <h6>Follow us on social media for updates!</h6>
+        </div>
+        <div class="social_container">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <div class="social_btn">
+          <a href="contact.html">back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c011f1c29c.js" crossorigin="anonymous"></script>
+  </body>
+</html>

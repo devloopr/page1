@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Red Planet is an unofficial microsite about NASA's Mars exploration program" />
+    <meta name="keywords" content="mars rovers, nasa, mars, red planet, space, live on mars??" />
+    <meta name="author" content="Stian F Evensen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Stian F Evensen" />
+
+    <link rel="stylesheet" href="styles.css" style type="text/css" />
+    <link rel="stylesheet" href="gallery.css" style type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <title>Red Planet | Gallery</title>
+  </head>
+  <body>
+    <label id="label_hamburger" for="hamburger_menu">
+      <i class="fas fa-bars"> </i>
+    </label>
+    <img src="img/logo.png" class="hamburger_logo" alt="red planet logo" />
+    <input type="checkbox" id="hamburger_menu" />
+    <nav>
+      <div class="nav_container">
+        <div class="nav_wrapper">
+          <img src="img/logo.png" class="logo" alt="red planet logo" />
+          <a href="index.html">home</a>
+          <a href="gallery.html" class="active_nav">gallery</a>
+          <a href="timeline.html">timeline</a>
+          <a href="contact.html">contact</a>
+        </div>
+      </div>
+    </nav>
+    <header class="gallery_hero">
+      <div class="gallery_hero_inner">
+        <h1>Curiosity's Photo gallery</h1>
+      </div>
+    </header>
+    <main>
+      <section class="gallery_section">
+        <h2 class="gallery_h2">Images from Mars taken by curiosity (click to enlarge)</h2>
+
+        <div id="gallery"></div>
+      </section>
+      <div id="overlay">
+        <div id="ImgModal" onClick="closeModal()">
+          <button id="CloseImgModalButton">close</button>
+          <img id="ImgContainer" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <hr />
+      <div class="footer_container">
+        <div class="footer_logo_container">
+          <img src="img/logo.png" alt="red planet logo" />
+          <h5>Is an unofficial microsite for NASA.</h5>
+          <h6>Follow us on social media for updates!</h6>
+        </div>
+        <div class="social_container">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <div class="social_btn">
+          <a href="gallery.html">back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c011f1c29c.js" crossorigin="anonymous"></script>
+  </body>
+</html>

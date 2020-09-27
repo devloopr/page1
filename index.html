@@ -2,69 +2,131 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="re-cycle offers eco-friendly guided bike-tours in your favorite city"
-    />
-    <meta
-      name="keywords"
-      content="Webutvikling, nettsider, apputvikling, skreddersydde nettsider, branding, design"
-    />
+    <meta name="description" content="Red Planet is an unofficial microsite about NASA's Mars exploration program" />
+    <meta name="keywords" content="mars rovers, nasa, mars, red planet, space, live on mars??" />
     <meta name="author" content="Stian F Evensen" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="styles.css" style type="text/css" />
-    <link rel="stylesheet" href="hamburger.css" style type="text/css" />
-    <script
-      src="https://kit.fontawesome.com/c011f1c29c.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>devloopr | Velkommen!</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet" />
+
+    <title>Red Planet | Home</title>
   </head>
   <body>
-    <nav class="big_navi">
-      <a href="#"><img src="img/logo.png" width="400" height="70"/></a>
+    <label id="label_hamburger" for="hamburger_menu">
+      <i class="fas fa-bars"> </i>
+    </label>
+    <img src="img/logo.png" class="hamburger_logo" alt="red planet logo" />
+    <input type="checkbox" id="hamburger_menu" />
+    <nav>
+      <div class="nav_container">
+        <div class="nav_wrapper">
+          <img src="img/logo.png" class="logo" alt="red planet logo" />
+          <a href="index.html" class="active_nav">home</a>
+          <a href="gallery.html">gallery</a>
+          <a href="timeline.html">timeline</a>
+          <a href="contact.html">contact</a>
+        </div>
+      </div>
     </nav>
+    <header class="hero">
+      <div class="hero_inner">
+        <h1>Exploring the red planet</h1>
+        <h2>mars mission statement:</h2>
+        <p>The goal of the Mars Exploration Program is to explore Mars and to provide a continuous flow of scientific information and discovery through a carefully selected series of robotic orbiters, landers and mobile laboratories interconnected by a high-bandwidth Mars/Earth communications network.</p>
+      </div>
+    </header>
+    <main>
+      <section class="rover_section">
+        <h2 id="rover_h2">The Mars Exploration Rovers:</h2>
+        <div class="rover_card_container">
+          <div class="rover_cards">
+            <img src="img/spirit.jpg" alt="" />
+            <div class="rover_content">
+              <ul>
+                <li><p>Name: Spirit.</p></li>
+                <li><p>Launch Date: Jun. 10, 2003</p></li>
+                <li><p>Status: Mission Complete.</p></li>
+                <li><p>What Was Spirit? NASA's Spirit rover—and it's twin Opportunity—studied the history of climate and water at sites on Mars where conditions may once have been favorable to life.</p></li>
+                <li><p>Spirit uncovered strong evidence that Mars was once much wetter than it is now.</p></li>
+                <li><p>Described as a "wonderful workhorse"—Spirit operated for 6 years, 2 months, and 19 days, more than 25 times its original intended lifetime.</p></li>
+                <li><p>The rover traveled 4.8 miles (7.73 kilometers) across the Martian plains.</p></li>
+                <li><p>On May 25, 2011, NASA ended efforts to contact the marooned rover and declared its mission complete. The rover had been silent since March 2010.</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="rover_cards">
+            <img src="img/opportunity.jpg" alt="" />
+            <div class="rover_content">
+              <ul>
+                <li><p>Name: Opportunity.</p></li>
+                <li><p>Launch Date: July 8, 2003.</p></li>
+                <li><p>Status: Mission Complete.</p></li>
+                <li><p>What was Opportunity? NASA's Opportunity rover was one of the most successful and enduring interplanetary missions. Opportunity landed on Mars in early 2004 soon after its twin rover Spirit. Opportunity operated almost 15 years, setting several records and making a number of key discoveries.</p></li>
+                <li><p>Opportunity and its twin Spirit were tasked with studying sites on Mars where conditions may once have been favorable for life</p></li>
+                <li><p>Opportunity exceeded its life expectancy by 60 times and had traveled more than 28 miles (45 kilometers) by the time it reached its appropriate final resting spot on Mars – Perseverance Valley.</p></li>
+                <li><p>Opportunity stopped communicating with Earth after a severe Mars-wide dust storm blanketed its location in June 2018.</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="rover_cards">
+            <img src="img/curi.jpg" alt="" />
+            <div class="rover_content">
+              <ul>
+                <li><p>Name: Curiosity (Mars Science Lab).</p></li>
+                <li><p>Launch Date: Nov. 26, 2011.</p></li>
+                <li><p>Status: Active.</p></li>
+                <li><p>Who are Curiosity (MSL)? NASA's Curiosity is the largest and most advanced rover ever sent to Mars. The car-sized rover is part of NASA's Mars Science Laboratory (MSL). Curiosity's ongoing mission is to study the ancient habitability and the potential for life on Mars.</p></li>
+                <li><p>The rover began its first drive on Mars Aug. 29, 2012.</p></li>
+                <li><p>The rover is about as tall as a basketball player and uses a 7-foot (2-meter) arm to place tools close to rocks for study.</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="rover_cards">
+            <img src="img/mars2020.jpg" alt="" />
+            <div class="rover_content">
+              <ul>
+                <li><p>Name: Perseverance (MARS2020).</p></li>
+                <li><p>Launch Date: July 30, 2020.</p></li>
+                <li><p>Status: Orbiting</p></li>
+                <li><p>Expected Landing: Feb. 18, 2021</p></li>
 
-    <!-- <div class="line"></div> -->
-
-    <div class="menu_wrap">
-      <input type="checkbox" class="toggler" />
-      <div class="hamburger"><div></div></div>
-      <nav class="menu">
-        <div>
-          <div>
-            <ul>
-              <li><a href="">hjem</a></li>
-              <li><a href="">om meg</a></li>
-              <li><a href="">tjenester</a></li>
-              <li><a href="">kontakt</a></li>
-            </ul>
+                <li><p>The Perseverance rover's astrobiology mission is to seek out signs of past microscopic life on Mars, explore the diverse geology of its landing site, Jezero Crater, and demonstrate key technologies that will help us prepare for future robotic and human exploration.</p></li>
+                <li><p>The rover's technologies for entry, descent, and landing also will provide information to advance future human missions to Mars.</p></li>
+                <li>
+                  <p>
+                    "Perseverance is the most capable rover in history because it is standing on the shoulders of our pioneers Sojourner, Spirit, Opportunity, and Curiosity," said Michael Watkins, director of NASA's Jet Propulsion Laboratory in Southern California. "In the same way, the descendants of Ingenuity and MOXIE will become valuable tools for future explorers to the Red Planet and
+                    beyond."
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </nav>
-    </div>
-
-    <header>
-      <h1></h1>
-    </header>
-
-    <section>
-      <div></div>
-      <div></div>
-      <div></div>
-    </section>
-
+      </section>
+    </main>
     <footer>
-      <div class="social_container">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-linkedin"></i>
+      <hr />
+      <div class="footer_container">
+        <div class="footer_logo_container">
+          <img src="img/logo.png" alt="red planet logo" />
+          <h5>Is an unofficial microsite for NASA.</h5>
+          <h6>Follow us on social media for updates!</h6>
+        </div>
+        <div class="social_container">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <div class="social_btn">
+          <a href="index.html">back to top</a>
+        </div>
       </div>
     </footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c011f1c29c.js" crossorigin="anonymous"></script>
   </body>
 </html>
